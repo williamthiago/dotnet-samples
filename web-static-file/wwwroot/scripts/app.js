@@ -1,6 +1,6 @@
 (function() {
     function showSystem(data) {
-        document.getElementById('description').innerText = data.Description;
+        document.getElementById('description').textContent = data.Description;
         document.getElementById('system').src = '/assets/images/' + data.SystemBase.toLowerCase() + '.svg';
         var overlay = document.getElementById('overlay');
         overlay.parentNode.removeChild(overlay);
