@@ -8,7 +8,6 @@
   
   "dependencies": {
     "Microsoft.NETCore.App": {
-      "type": "platform",
       "version": "1.0.0-rc2-3002702"
     },
     "Microsoft.AspNetCore.Mvc.Core": "1.0.0-*",
@@ -35,6 +34,6 @@
   "runtimes": {
     "ubuntu.14.04-x64": { },
     "win7-x64": { },
-    "osx.10.10-x64": { }
+    "osx.10.11-x64": { }
   }
 }
